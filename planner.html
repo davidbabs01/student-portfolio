@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | David Babayemi</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            <h2>David's <span>Portfolio</span></h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="planner.html" class="active">Planner</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="planner">
+
+    <h1>Academic Planner</h1>
+
+    <p>Manage your assignments and academic tasks.</p>
+
+    <div class="task-input">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter a new task">
+
+        <button id="addTaskBtn">
+
+            Add Task
+
+        </button>
+
+    </div>
+
+    <div class="task-summary">
+
+        <h3>Total Tasks:
+            <span id="taskCount">0</span>
+        </h3>
+
+    </div>
+
+    <ul id="taskList"></ul>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 David Babs | Student Portfolio
+
+</p>
+
+</footer>
+
+<script src="js/planner.js"></script>
+
+</body>
+
+</html>
